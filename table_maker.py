@@ -24,7 +24,7 @@ def getNewSize(size, tw=139, th=123):
     return (max(tw,w), max(th,h))
 
 def resizeImg(image, tw=139, th=123):
-    return image.resize(getNewSize(image.size, tw=tw, th=th))
+    return image.resize(getNewSize(image.size, tw=tw, th=th), resample=Image.LANCZOS)
 
 def cropCenter(image, tw=139, th=123):
     w, h = image.size
