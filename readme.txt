@@ -1,4 +1,4 @@
-Table Maker v1.0 made by Toph
+Table Maker v1.1 made by Toph
 
 HOWTO:
 1. Put images with names "[1-24] <name>.*" into "images/" folder.
